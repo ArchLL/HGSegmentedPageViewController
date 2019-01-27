@@ -20,7 +20,7 @@ HGSegmentedPageViewController is available through [CocoaPods](https://cocoapods
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HGSegmentedPageViewController', '~> 0.1.1'
+pod 'HGSegmentedPageViewController', '~> 0.1.0'
 ```
 
 ## Blog
@@ -53,7 +53,7 @@ Example: HGSegmentedPageViewController / Example
 
 /*
 *设置segmentedPageViewController的categoryView以及pageViewControllers
-*这里可以对categoryView进行自定义，包括高度、背景颜色、字体颜色、字体大小、下划线高度和颜色等
+*这里可以对categoryView进行自定义，包括高度、背景颜色，字体颜色和大小等
 */
 - (HGSegmentedPageViewController *)segmentedPageViewController {
     if (!_segmentedPageViewController) {

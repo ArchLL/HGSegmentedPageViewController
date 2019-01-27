@@ -1,0 +1,23 @@
+PODS:
+  - HGSegmentedPageViewController (0.1.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - HGSegmentedPageViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  HGSegmentedPageViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HGSegmentedPageViewController: 097ece7bad8037a392b0faeb1c8bcdfdbfa9811c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: db91a492768645a9e243af00744586491897eff5
+
+COCOAPODS: 1.5.3

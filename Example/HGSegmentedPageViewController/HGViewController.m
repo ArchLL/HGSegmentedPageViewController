@@ -1,48 +1,28 @@
-# HGSegmentedPageViewController
+//
+//  HGViewController.m
+//  HGSegmentedPageViewController
+//
+//  Created by mint_bin@163.com on 01/27/2019.
+//  Copyright (c) 2019 mint_bin@163.com. All rights reserved.
+//
 
-![License MIT](https://img.shields.io/dub/l/vibe-d.svg) 
-[![Platform](https://img.shields.io/cocoapods/p/HGSegmentedPageViewController.svg?style=flat)](http://cocoapods.org/pods/HGSegmentedPageViewController)
-![Pod version](http://img.shields.io/cocoapods/v/HGSegmentedPageViewController.svg?style=flat)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-- iOS 8.0+ 
-- Objective-C
-- Xcode 9+
-
-## Installation
-
-HGSegmentedPageViewController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'HGSegmentedPageViewController', '~> 0.1.1'
-```
-
-## Blog
-[简书](https://www.jianshu.com/u/f245583cc4d8)  
-
-![image](https://github.com/ArchLL/HGSegmentedPageViewController/blob/master/show.gif)  
-
-## Usage
-Example: HGSegmentedPageViewController / Example
-
-```Objc
-
+#import "HGViewController.h"
 #import "HGSegmentedPageViewController.h"
+#import "HGFirstViewController.h"
+#import "HGSecondViewController.h"
+#import "HGThirdViewController.h"
 
 @interface HGViewController ()
 @property (nonatomic, strong) HGSegmentedPageViewController *segmentedPageViewController;
-
 @end
 
+@implementation HGViewController
+
+#pragma mark - Life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
+    self.title = @"分页解决方案";
+    
     [self addChildViewController:self.segmentedPageViewController];
     [self.view addSubview:self.segmentedPageViewController.view];
     [self.segmentedPageViewController didMoveToParentViewController:self];
@@ -51,10 +31,7 @@ Example: HGSegmentedPageViewController / Example
     }];
 }
 
-/*
-*设置segmentedPageViewController的categoryView以及pageViewControllers
-*这里可以对categoryView进行自定义，包括高度、背景颜色、字体颜色、字体大小、下划线高度和颜色等
-*/
+#pragma mark Getters
 - (HGSegmentedPageViewController *)segmentedPageViewController {
     if (!_segmentedPageViewController) {
         NSMutableArray *controllers = [NSMutableArray array];
@@ -71,21 +48,11 @@ Example: HGSegmentedPageViewController / Example
             [controllers addObject:controller];
         }
         _segmentedPageViewController = [[HGSegmentedPageViewController alloc] init];
-        _segmentedPageViewController.pageViewControl lers = controllers.copy;
+        _segmentedPageViewController.pageViewControllers = controllers.copy;
         _segmentedPageViewController.categoryView.titles = titles;
         _segmentedPageViewController.categoryView.originalIndex = 0;
     }
     return _segmentedPageViewController;
 }
 
-```
-
-## Author
-
-Arch, mint_bin@163.com
-
-## License
-
-HGPersonalCenterExtend is available under the MIT license. See the LICENSE file for more info.
-
-
+@end

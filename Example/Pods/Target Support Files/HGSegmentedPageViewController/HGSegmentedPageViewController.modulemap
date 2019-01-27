@@ -1,0 +1,6 @@
+framework module HGSegmentedPageViewController {
+  umbrella header "HGSegmentedPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
