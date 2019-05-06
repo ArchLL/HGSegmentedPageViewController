@@ -78,7 +78,7 @@
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     NSUInteger index = (NSUInteger)(self.scrollView.contentOffset.x / kWidth);
-    [self.categoryView changeItemWithTargetIndex:index];
+    [self.categoryView changeItemToTargetIndex:index];
     self.currentPageViewController = self.pageViewControllers[index];
     self.selectedIndex = index;
     if (self.delegate && [self.delegate respondsToSelector:@selector(segmentedPageViewControllerDidEndDeceleratingWithPageIndex:)]) {

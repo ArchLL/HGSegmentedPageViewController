@@ -48,9 +48,13 @@
             [controllers addObject:controller];
         }
         _segmentedPageViewController = [[HGSegmentedPageViewController alloc] init];
-        _segmentedPageViewController.pageViewControllers = controllers.copy;
+        _segmentedPageViewController.pageViewControllers = controllers;
         _segmentedPageViewController.categoryView.titles = titles;
+        _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
         _segmentedPageViewController.categoryView.originalIndex = 0;
+        _segmentedPageViewController.categoryView.itemSpacing = 25;
+        _segmentedPageViewController.categoryView.backgroundColor = [UIColor yellowColor];
+        _segmentedPageViewController.categoryView.topBorder.hidden = YES;
     }
     return _segmentedPageViewController;
 }
