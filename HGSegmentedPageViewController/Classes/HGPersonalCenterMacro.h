@@ -6,17 +6,47 @@
 //  Copyright © 2019 mint_bin. All rights reserved.
 //
 
-#ifndef HGPersonalCenterMacro_h
-#define HGPersonalCenterMacro_h
+#ifndef HGPersonalCenterExtendMacro_h
+#define HGPersonalCenterExtendMacro_h
 
+#ifndef weakify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+#endif
+#endif
+#endif
+
+#ifndef strongify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+#else
+#define strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+#else
+#define strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+#endif
+#endif
+#endif
+
+// device
 #define HG_SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
 #define HG_SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
-#define HG_STATUS_BAR_HEIGHT [UIApplication sharedApplication].statusBarFrame.size.height
-#define HG_IS_IPAD ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
-#define HG_NAVIGATION_BAR_HEIGHT ((HG_IS_IPAD ? 50 : 44) + HG_STATUS_BAR_HEIGHT)
-#define HG_RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 #define HG_ONE_PIXEL (1 / [UIScreen mainScreen].scale)
 
+// static
 static const CGFloat HGCategoryViewDefaultHeight = 41;
 
 #endif /* HGPersonalCenterMacro_h */

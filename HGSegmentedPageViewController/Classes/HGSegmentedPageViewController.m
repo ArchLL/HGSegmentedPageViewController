@@ -8,6 +8,7 @@
 
 #import "HGSegmentedPageViewController.h"
 #import "Masonry.h"
+#import "HGPersonalCenterMacro.h"
 
 #define kWidth self.view.frame.size.width
 
@@ -24,7 +25,17 @@
     [super viewDidLoad];
     self.currentPageViewController = self.pageViewControllers[self.categoryView.originalIndex];
     self.selectedIndex = self.categoryView.originalIndex;
-    
+    [self setupViews];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    }
+}
+
+- (void)setupViews {
     [self.view addSubview:self.categoryView];
     [self.view addSubview:self.scrollView];
     
@@ -46,32 +57,17 @@
             make.top.width.height.equalTo(self.scrollView);
         }];
     }];
-    
-    __weak typeof(self) weakSelf = self;
-    weakSelf.categoryView.selectedItemHelper = ^(NSUInteger index) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        [strongSelf.scrollView setContentOffset:CGPointMake(index * kWidth, 0) animated:NO];
-        strongSelf.currentPageViewController = strongSelf.pageViewControllers[index];
-        self.selectedIndex = index;
-    };
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
-        self.navigationController.interactivePopGestureRecognizer.delegate = self;
-    }
 }
 
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(segmentedPageViewControllerWillBeginDragging)]) {
+    if ([self.delegate respondsToSelector:@selector(segmentedPageViewControllerWillBeginDragging)]) {
         [self.delegate segmentedPageViewControllerWillBeginDragging];
     }
 }
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(segmentedPageViewControllerDidEndDragging)]) {
+    if ([self.delegate respondsToSelector:@selector(segmentedPageViewControllerDidEndDragging)]) {
         [self.delegate segmentedPageViewControllerDidEndDragging];
     }
 }
@@ -81,7 +77,7 @@
     [self.categoryView changeItemToTargetIndex:index];
     self.currentPageViewController = self.pageViewControllers[index];
     self.selectedIndex = index;
-    if (self.delegate && [self.delegate respondsToSelector:@selector(segmentedPageViewControllerDidEndDeceleratingWithPageIndex:)]) {
+    if ([self.delegate respondsToSelector:@selector(segmentedPageViewControllerDidEndDeceleratingWithPageIndex:)]) {
         [self.delegate segmentedPageViewControllerDidEndDeceleratingWithPageIndex:index];
     }
 }
@@ -90,6 +86,13 @@
 - (HGCategoryView *)categoryView {
     if (!_categoryView) {
         _categoryView = [[HGCategoryView alloc] init];
+        @weakify(self)
+        _categoryView.selectedItemHelper = ^(NSUInteger index) {
+            @strongify(self)
+            [self.scrollView setContentOffset:CGPointMake(index * kWidth, 0) animated:NO];
+            self.currentPageViewController = self.pageViewControllers[index];
+            self.selectedIndex = index;
+        };
     }
     return _categoryView;
 }
