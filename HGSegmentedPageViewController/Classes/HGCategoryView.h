@@ -1,6 +1,6 @@
 //
 //  HGCategoryView.h
-//  HGPersonalCenterExtend
+//  HGSegmentedPageViewController
 //
 //  Created by Arch on 2018/8/20.
 //  Copyright © 2018年 mint_bin. All rights reserved.
@@ -8,14 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-
 typedef NS_ENUM(NSUInteger, HGCategoryViewAlignment) {
     HGCategoryViewAlignmentLeft,
     HGCategoryViewAlignmentCenter,
     HGCategoryViewAlignmentRight
 };
 
-@interface HGCategoryViewCollectionViewCell : UICollectionViewCell
+@interface HGCategoryViewCell : UICollectionViewCell
 @property (nonatomic, readonly, strong) UILabel *titleLabel;
 @end;
 
@@ -60,6 +59,9 @@ typedef NS_ENUM(NSUInteger, HGCategoryViewAlignment) {
 /// 游标的高度
 @property (nonatomic) CGFloat vernierHeight;
 
+/// 固定游标的宽度，默认是不固定的
+@property (nonatomic) CGFloat vernierWidth;
+
 /// item间距
 @property (nonatomic) CGFloat itemSpacing;
 
@@ -69,18 +71,23 @@ typedef NS_ENUM(NSUInteger, HGCategoryViewAlignment) {
 /// collectionView左右的margin
 @property (nonatomic) CGFloat leftAndRightMargin;
 
-/// item是否等分(在titles、itemSpacing、itemWidth、leftAndRightMargin设置之后设置)，Default：NO
+/// item是否等分(实质上改变的是itemWidth，建议在titles、itemSpacing、itemWidth、leftAndRightMargin设置之后设置)，Default：NO
 @property (nonatomic) CGFloat isEqualParts;
+
+/// 字体变大、vernier位置切换动画时长，default：0.1
+@property (nonatomic) CGFloat animateDuration;
 
 /// item点击事件的回调
 @property (nonatomic, copy) void (^selectedItemHelper)(NSUInteger index);
 
 
 /**
- 使collectionViewd滚动到指定的cell
+ 使collectionView滚动到指定的cell
 
  @param targetIndex 目标cell的index
+ @param sourceIndex 当前cell的index
+ @param percent 滑动距离/(sourceIndex与targetIndex的距离)
  */
-- (void)changeItemToTargetIndex:(NSUInteger)targetIndex;
+- (void)scrollToTargetIndex:(NSUInteger)targetIndex sourceIndex:(NSUInteger)sourceIndex percent:(CGFloat)percent;
 
 @end

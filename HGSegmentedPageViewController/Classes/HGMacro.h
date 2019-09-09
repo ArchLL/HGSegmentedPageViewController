@@ -1,13 +1,13 @@
 //
-//  HGPersonalCenterMacro.h
-//  HGPersonalCenterExtend
+//  HGMacro.h
+//  HGSegmentedPageViewController
 //
 //  Created by Arch on 2019/1/20.
 //  Copyright © 2019 mint_bin. All rights reserved.
 //
 
-#ifndef HGPersonalCenterExtendMacro_h
-#define HGPersonalCenterExtendMacro_h
+#ifndef HGMacro_h
+#define HGMacro_h
 
 #ifndef weakify
 #if DEBUG
@@ -49,4 +49,4 @@
 // static
 static const CGFloat HGCategoryViewDefaultHeight = 41;
 
-#endif /* HGPersonalCenterMacro_h */
+#endif /* HGMacro_h */

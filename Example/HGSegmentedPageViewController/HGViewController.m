@@ -23,6 +23,12 @@
     [super viewDidLoad];
     self.title = @"分页解决方案";
     
+    [self addSegmentedPageViewController];
+    [self setupPageViewControllers];
+}
+
+#pragma mark - Private Methods
+- (void)addSegmentedPageViewController {
     [self addChildViewController:self.segmentedPageViewController];
     [self.view addSubview:self.segmentedPageViewController.view];
     [self.segmentedPageViewController didMoveToParentViewController:self];
@@ -31,30 +37,33 @@
     }];
 }
 
+- (void)setupPageViewControllers {
+    NSMutableArray *controllers = [NSMutableArray array];
+    NSArray *titles = @[@"华盛顿", @"夏威夷", @"拉斯维加斯", @"纽约", @"西雅图", @"底特律", @"费城", @"旧金山", @"芝加哥"];
+    for (int i = 0; i < titles.count; i++) {
+        UIViewController *controller;
+        if (i % 3 == 0) {
+            controller = [[HGThirdViewController alloc] init];
+        } else if (i % 2 == 0) {
+            controller = [[HGSecondViewController alloc] init];
+        } else {
+            controller = [[HGFirstViewController alloc] init];
+        }
+        [controllers addObject:controller];
+    }
+    _segmentedPageViewController.pageViewControllers = controllers;
+    _segmentedPageViewController.categoryView.titles = titles;
+    _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
+    _segmentedPageViewController.categoryView.originalIndex = 0;
+    _segmentedPageViewController.categoryView.itemSpacing = 25;
+    _segmentedPageViewController.categoryView.backgroundColor = [UIColor whiteColor];
+    _segmentedPageViewController.categoryView.topBorder.hidden = YES;
+}
+
 #pragma mark Getters
 - (HGSegmentedPageViewController *)segmentedPageViewController {
     if (!_segmentedPageViewController) {
-        NSMutableArray *controllers = [NSMutableArray array];
-        NSArray *titles = @[@"华盛顿", @"夏威夷", @"拉斯维加斯", @"纽约", @"西雅图", @"底特律", @"费城", @"旧金山", @"芝加哥"];
-        for (int i = 0; i < titles.count; i++) {
-            UIViewController *controller;
-            if (i % 3 == 0) {
-                controller = [[HGThirdViewController alloc] init];
-            } else if (i % 2 == 0) {
-                controller = [[HGSecondViewController alloc] init];
-            } else {
-                controller = [[HGFirstViewController alloc] init];
-            }
-            [controllers addObject:controller];
-        }
         _segmentedPageViewController = [[HGSegmentedPageViewController alloc] init];
-        _segmentedPageViewController.pageViewControllers = controllers;
-        _segmentedPageViewController.categoryView.titles = titles;
-        _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
-        _segmentedPageViewController.categoryView.originalIndex = 0;
-        _segmentedPageViewController.categoryView.itemSpacing = 25;
-        _segmentedPageViewController.categoryView.backgroundColor = [UIColor yellowColor];
-        _segmentedPageViewController.categoryView.topBorder.hidden = YES;
     }
     return _segmentedPageViewController;
 }

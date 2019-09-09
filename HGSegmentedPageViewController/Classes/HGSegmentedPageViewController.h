@@ -19,8 +19,8 @@
 @interface HGSegmentedPageViewController : UIViewController
 @property (nonatomic, strong, readonly) HGCategoryView *categoryView;
 @property (nonatomic, copy) NSArray<UIViewController *> *pageViewControllers;
+@property (nonatomic, readonly) NSInteger currentPageIndex;
 @property (nonatomic, strong, readonly) UIViewController *currentPageViewController;
-@property (nonatomic, readonly) NSInteger selectedIndex;
 @property (nonatomic, weak) id<HGSegmentedPageViewControllerDelegate> delegate;
 @end
 
