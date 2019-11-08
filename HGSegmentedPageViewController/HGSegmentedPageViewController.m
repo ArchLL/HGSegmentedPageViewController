@@ -16,7 +16,6 @@
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic) CGFloat whenBeginDraggingContentOffsetX;
 @property (nonatomic) BOOL isDragging;
-@property (nonatomic) BOOL isEndDecelerating;
 @end
 
 @implementation HGSegmentedPageViewController
@@ -48,7 +47,7 @@
 
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
-    self.scrollView.userInteractionEnabled = NO;
+    scrollView.userInteractionEnabled = NO;
     self.whenBeginDraggingContentOffsetX = scrollView.contentOffset.x;
     if ([self.delegate respondsToSelector:@selector(segmentedPageViewControllerWillBeginDragging)]) {
         [self.delegate segmentedPageViewControllerWillBeginDragging];
@@ -83,7 +82,7 @@
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     if (decelerate) {
-        self.scrollView.userInteractionEnabled = YES;
+        scrollView.userInteractionEnabled = YES;
     }
     if ([self.delegate respondsToSelector:@selector(segmentedPageViewControllerDidEndDragging)]) {
         [self.delegate segmentedPageViewControllerDidEndDragging];
@@ -129,6 +128,7 @@
 - (HGCategoryView *)categoryView {
     if (!_categoryView) {
         _categoryView = [[HGCategoryView alloc] init];
+        _categoryView.userInteractionEnabled = NO;
     }
     return _categoryView;
 }

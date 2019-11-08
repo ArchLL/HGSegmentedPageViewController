@@ -27,7 +27,7 @@
       "~> 1.1.0"
     ],
     "HGCategoryView": [
-      "~> 1.0.2"
+      "~> 1.0.3"
     ]
   },
   "requires_arc": true
