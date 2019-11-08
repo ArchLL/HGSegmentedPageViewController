@@ -25,6 +25,10 @@
     
     [self addSegmentedPageViewController];
     [self setupPageViewControllers];
+    // 模拟请求成功后展示pageViewControllers，你也可以将addSegmentedPageViewController也放到请求成功后处理
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self setupPageViewControllers];
+//    });
 }
 
 #pragma mark - Private Methods
@@ -56,7 +60,6 @@
     _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
     _segmentedPageViewController.categoryView.originalIndex = 0;
     _segmentedPageViewController.categoryView.itemSpacing = 25;
-    _segmentedPageViewController.categoryView.backgroundColor = [UIColor whiteColor];
     _segmentedPageViewController.categoryView.topBorder.hidden = YES;
 }
 

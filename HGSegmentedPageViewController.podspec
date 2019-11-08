@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HGSegmentedPageViewController'
-  s.version          = '0.1.5'
+  s.version          = '1.0.0'
   s.license          = 'MIT'
   s.summary          = 'A paging solution'
   s.description      = %{
@@ -18,9 +18,10 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ArchLL/HGSegmentedPageViewController'
   s.author           = { 'Arch' => 'mint_bin@163.com' }
   s.source           = { :git => 'https://github.com/ArchLL/HGSegmentedPageViewController.git', :tag => s.version.to_s }
-  s.source_files = 'HGSegmentedPageViewController/Classes/*.{h,m}' 
+  s.source_files = 'HGSegmentedPageViewController/*.{h,m}' 
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.ios.deployment_target = '8.0'
   s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'HGCategoryView', '~> 1.0.2'
   s.requires_arc = true
 end

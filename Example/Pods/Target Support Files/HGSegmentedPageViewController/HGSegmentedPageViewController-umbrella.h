@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "HGCategoryView.h"
-#import "HGPersonalCenterMacro.h"
 #import "HGSegmentedPageViewController.h"
 
 FOUNDATION_EXPORT double HGSegmentedPageViewControllerVersionNumber;

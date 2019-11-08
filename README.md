@@ -20,7 +20,7 @@ HGSegmentedPageViewController is available through [CocoaPods](https://cocoapods
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HGSegmentedPageViewController', '~> 0.1.5'
+pod 'HGSegmentedPageViewController', '~> 1.0.0'
 ```
 
 ## Blog
@@ -44,6 +44,7 @@ Example: HGSegmentedPageViewController/Example
     [super viewDidLoad];
     self.title = @"分页解决方案";
     
+    // 支持请求数据成功后再设置PageViewControllers
     [self addSegmentedPageViewController];
     [self setupPageViewControllers];
 }
