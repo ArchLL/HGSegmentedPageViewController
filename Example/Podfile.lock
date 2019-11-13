@@ -1,8 +1,8 @@
 PODS:
-  - HGCategoryView (1.0.3):
+  - HGCategoryView (1.1.0):
     - Masonry (~> 1.1.0)
-  - HGSegmentedPageViewController (1.0.0):
-    - HGCategoryView (~> 1.0.3)
+  - HGSegmentedPageViewController (1.0.2):
+    - HGCategoryView (~> 1.1.0)
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
@@ -19,8 +19,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HGCategoryView: 4ca8f3551d8c0133d2a755d5c53c3396bb7c78f3
-  HGSegmentedPageViewController: 6e4495c75c261555e78b3294ee175514f667c153
+  HGCategoryView: 6e6efd5c3bdde72e29125d7dced5395ccd374c6f
+  HGSegmentedPageViewController: 3bad411949d1f5ae34f99507b1aa0f2232ddc515
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 709443270ea32a6abb577dac16794e94e0b7b59a
