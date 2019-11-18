@@ -13,14 +13,16 @@
 @optional
 - (void)segmentedPageViewControllerWillBeginDragging;
 - (void)segmentedPageViewControllerDidEndDragging;
-- (void)segmentedPageViewControllerDidEndDeceleratingWithPageIndex:(NSInteger)index;
+- (void)segmentedPageViewControllerWillTransitionToPage:(NSInteger)page;
+- (void)segmentedPageViewControllerDidTransitionToPage:(NSInteger)page;
 @end
 
 @interface HGSegmentedPageViewController : UIViewController
 @property (nonatomic, strong, readonly) HGCategoryView *categoryView;
 @property (nonatomic, copy) NSArray<UIViewController *> *pageViewControllers;
-@property (nonatomic, readonly) NSInteger currentPageIndex;
-@property (nonatomic, strong, readonly) UIViewController *currentPageViewController;
+@property (nonatomic) NSInteger originalPage;
+@property (nonatomic, readonly) NSInteger selectedPage;
+@property (nonatomic, strong, readonly) UIViewController *selectedPageViewController;
 @property (nonatomic, weak) id<HGSegmentedPageViewControllerDelegate> delegate;
 @end
 

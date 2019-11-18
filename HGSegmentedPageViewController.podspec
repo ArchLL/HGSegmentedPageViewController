@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HGSegmentedPageViewController'
-  s.version          = '1.0.2'
+  s.version          = '1.1.0'
   s.license          = 'MIT'
   s.summary          = 'A paging solution'
   s.description      = %{
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.ios.deployment_target = '8.0'
   s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'HGCategoryView', '~> 1.1.0'
+  s.dependency 'HGCategoryView', '~> 1.1.1'
+  s.dependency 'FDFullscreenPopGesture', '~> 1.1'
   s.requires_arc = true
 end
