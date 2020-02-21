@@ -1,10 +1,8 @@
 PODS:
-  - FDFullscreenPopGesture (1.1)
-  - HGCategoryView (1.1.1):
+  - HGCategoryView (1.1.2):
     - Masonry (~> 1.1.0)
-  - HGSegmentedPageViewController (1.1.0):
-    - FDFullscreenPopGesture (~> 1.1)
-    - HGCategoryView (~> 1.1.1)
+  - HGSegmentedPageViewController (1.1.1):
+    - HGCategoryView (~> 1.1.2)
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
@@ -13,7 +11,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - FDFullscreenPopGesture
     - HGCategoryView
     - Masonry
 
@@ -22,9 +19,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  HGCategoryView: 4f334149d198e256bd764d4c860eb79982061dc1
-  HGSegmentedPageViewController: c824e91119d317921c44a1426688f4ff046732d1
+  HGCategoryView: 8437194aab246579ba2c29e0fdb7992d54c0ab2d
+  HGSegmentedPageViewController: 46043f5f14a974956215762111de47d79893b147
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 709443270ea32a6abb577dac16794e94e0b7b59a

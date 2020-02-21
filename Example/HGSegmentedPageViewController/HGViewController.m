@@ -58,7 +58,7 @@
     _segmentedPageViewController.pageViewControllers = controllers;
     _segmentedPageViewController.categoryView.titles = titles;
     _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
-    _segmentedPageViewController.categoryView.originalIndex = 0;
+    _segmentedPageViewController.categoryView.originalIndex = 2;
     _segmentedPageViewController.categoryView.itemSpacing = 25;
     _segmentedPageViewController.categoryView.topBorder.hidden = YES;
 }

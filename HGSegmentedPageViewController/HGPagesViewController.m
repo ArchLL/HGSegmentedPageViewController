@@ -6,7 +6,6 @@
 //
 
 #import "HGPagesViewController.h"
-#import "HGPopGestureCompatibleCollectionView.h"
 #import "Masonry.h"
 
 #define kWidth self.view.frame.size.width
@@ -14,7 +13,7 @@
 static NSString * const HGPagesViewControllerCellIdentifier = @"HGPagesViewControllerCell";
 
 @interface HGPagesViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
-@property (nonatomic, strong) HGPopGestureCompatibleCollectionView *collectionView;
+@property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic) BOOL isInitialScroll;
 @property (nonatomic) CGFloat contentOffsetXWhenBeginDragging;
 @end
@@ -158,9 +157,9 @@ static NSString * const HGPagesViewControllerCellIdentifier = @"HGPagesViewContr
     return layout;
 }
 
-- (HGPopGestureCompatibleCollectionView *)collectionView {
+- (UICollectionView *)collectionView {
     if (!_collectionView) {
-        _collectionView = [[HGPopGestureCompatibleCollectionView alloc] initWithFrame:CGRectZero
+        _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
                                                                  collectionViewLayout:[self layout]];
         _collectionView.backgroundColor = [UIColor clearColor];
         _collectionView.dataSource = self;

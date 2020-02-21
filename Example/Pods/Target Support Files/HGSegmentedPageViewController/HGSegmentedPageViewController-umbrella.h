@@ -11,7 +11,6 @@
 #endif
 
 #import "HGPagesViewController.h"
-#import "HGPopGestureCompatibleCollectionView.h"
 #import "HGSegmentedPageViewController.h"
 
 FOUNDATION_EXPORT double HGSegmentedPageViewControllerVersionNumber;
