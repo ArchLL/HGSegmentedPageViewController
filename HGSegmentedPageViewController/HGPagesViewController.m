@@ -65,12 +65,14 @@ static NSString * const HGPagesViewControllerCellIdentifier = @"HGPagesViewContr
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:HGPagesViewControllerCellIdentifier forIndexPath:indexPath];
+    cell.clipsToBounds = YES;
     UIViewController *viewController = self.viewControllers[indexPath.item];
     [self addChildViewController:viewController];
     [cell.contentView addSubview:viewController.view];
     [viewController didMoveToParentViewController:self];
     [viewController.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(cell.contentView);
+        make.center.equalTo(cell.contentView);
+        make.size.mas_equalTo(self.view.frame.size);
     }];
     return cell;
 }
@@ -160,26 +162,21 @@ static NSString * const HGPagesViewControllerCellIdentifier = @"HGPagesViewContr
 }
 
 #pragma mark - Getters
-- (UICollectionViewFlowLayout *)layout {
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    layout.minimumLineSpacing = 0;
-    layout.minimumInteritemSpacing = 0;
-    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    return layout;
-}
-
 - (UICollectionView *)collectionView {
     if (!_collectionView) {
-        _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
-                                                                 collectionViewLayout:[self layout]];
+        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+        layout.minimumLineSpacing = 0;
+        layout.minimumInteritemSpacing = 0;
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        
+        _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
         _collectionView.backgroundColor = [UIColor clearColor];
         _collectionView.dataSource = self;
         _collectionView.delegate = self;
         _collectionView.showsHorizontalScrollIndicator = NO;
         _collectionView.pagingEnabled = YES;
         _collectionView.bounces = NO;
-        [_collectionView registerClass:[UICollectionViewCell class]
-            forCellWithReuseIdentifier:HGPagesViewControllerCellIdentifier];
+        [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:HGPagesViewControllerCellIdentifier];
     }
     return _collectionView;
 }

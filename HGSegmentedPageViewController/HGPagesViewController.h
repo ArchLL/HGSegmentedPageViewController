@@ -21,9 +21,8 @@
 @property (nonatomic) NSInteger originalPage;
 @property (nonatomic, readonly) NSInteger selectedPage;
 @property (nonatomic, strong, readonly) UIViewController *selectedPageViewController;
-@property(nonatomic, weak) id<HGPagesViewControllerDelegate> delegate;
+@property (nonatomic, weak) id <HGPagesViewControllerDelegate> delegate;
 
 - (void)setSelectedPage:(NSInteger)selectedPage animated:(BOOL)animated;
-
 @end
 
