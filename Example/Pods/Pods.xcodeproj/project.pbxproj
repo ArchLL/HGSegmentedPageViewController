@@ -7,57 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0034887DFEE224C9A0CA5C8AAD74493C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 93867F2140F202FBCD29BA68F84ACBA6 /* MASCompositeConstraint.m */; };
+		0034887DFEE224C9A0CA5C8AAD74493C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A365386DD2EF3E82A4F4341B4210D6 /* MASCompositeConstraint.m */; };
 		00F6E6FA9CE3AA59FC6615CD5F9F5271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118B4AFA67C95A9521C6B6E3C3E47DE /* Foundation.framework */; };
-		03350FE852A76E3FE336CBEBE43A25F3 /* HGSegmentedPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B4674F0E9CE16A1CD7A1EEE107F889 /* HGSegmentedPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		078FD3D287CDCD9EF1953F598CA1B567 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9BB39BD7FD5A8B4B926D5D421488AF /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DB7B044AF115EC40AF200A6B089D8E9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EA49BEF0BE6B8360BAC5F0BB934333 /* MASConstraint.m */; };
-		1772DFCAAFE4E6E14A444764E6E394C3 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AC24B44B7E24A84FD32E47930538050C /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D053F4563983ABB9298E345FBC6AE57 /* HGPagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B68CE7274ABC08CEB947D3052040174C /* HGPagesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EF0F6E276BD7B8F9E6E8A84BC683AB6 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EB60AFD15F4F69CE78DD5EE02B78C082 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		252CF2761EBBB0619B4BBD32C82F3396 /* HGCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD52731A37BE880258C25BEF4DF42B4 /* HGCategoryView.m */; };
-		287278A1EC59846A8BD2DA4B0D216B7D /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DD2B62E9C15B76762DDF12D8867817 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28C4B891ACBECD45FF2689FFF1B12C8C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D50200D5F84B678631F8877F95856E /* MASLayoutConstraint.m */; };
-		2DA102C8507A8C9398A2BEE9D0EADA4E /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 057317154F9650635D3E1ABA80389A96 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03350FE852A76E3FE336CBEBE43A25F3 /* HGSegmentedPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 974747026C52276E4C32EE9A8064A444 /* HGSegmentedPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		078FD3D287CDCD9EF1953F598CA1B567 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B86CC3AB6E4AF895E97B478D4127A8C /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB7B044AF115EC40AF200A6B089D8E9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 582132DB50F8F90AA283546039786EB0 /* MASConstraint.m */; };
+		1772DFCAAFE4E6E14A444764E6E394C3 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCD84F7266D91319F16ED547E827FC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D053F4563983ABB9298E345FBC6AE57 /* HGPagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E31F532A73D010811BD0872EFE5018 /* HGPagesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF0F6E276BD7B8F9E6E8A84BC683AB6 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCFCB46CBFF29DD11C3087C84B751CA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		252CF2761EBBB0619B4BBD32C82F3396 /* HGCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E37A4E05528F1176EFD6B4077B0DB9 /* HGCategoryView.m */; };
+		287278A1EC59846A8BD2DA4B0D216B7D /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9AE61F1128DA1D1587C02CB8209423E /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C4B891ACBECD45FF2689FFF1B12C8C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F9379F676F6BE7B9C0BF9B3BC048BB /* MASLayoutConstraint.m */; };
+		2DA102C8507A8C9398A2BEE9D0EADA4E /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B00E6C63A86D483CBDC7413C40FEA4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33770955D0FF1E5B3C5B468BE077E293 /* HGCategoryView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8610FA1CBE39E22EBF699BE37E0666 /* HGCategoryView.framework */; };
-		3894BE14D11C7A8806C113E437566573 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 610A1C314CE48E28599E1616CDD226B6 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		413ED384B4F62B7FC8C22DB90AE4E651 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D86CC84D53599B599E96BE65B99A3BE0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		43820123CFECDCC0E5CA85CDA24BD779 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 126BEB57FF1109B71A4F83203755185D /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C0C8FAB6C7E7A4AA2309414C0A8D71 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27893E51E9C80A1FD866C1978213E85C /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3894BE14D11C7A8806C113E437566573 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2E57E7BA811A3FEB3561D2D9D7BFDB /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413ED384B4F62B7FC8C22DB90AE4E651 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FCE63D04CF05589DC138E56409C90D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		43820123CFECDCC0E5CA85CDA24BD779 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = D630145CD4C09438F7067E3E8641E4A1 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C0C8FAB6C7E7A4AA2309414C0A8D71 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F39676EC276D94606C69B33FB28A1C22 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B345D0856E4AB069B05B70B30DD6EFA /* Pods-HGSegmentedPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3075A502E5A4A1B0B05FB71A42D8D67B /* Pods-HGSegmentedPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FC17797E54F84E257C11DCACA1F9227 /* Pods-HGSegmentedPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBD2F37B979FCD4F63EBBC54B0FC91E /* Pods-HGSegmentedPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5485C64EF9CD9ADF4E6747F6540D8EAD /* HGPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39349A1134B92F52F9891A783089B1FC /* HGPagesViewController.m */; };
-		5524BFA17CDD35114B76721BE1C9AF69 /* HGCategoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAACEE324EEBB314D2219FA4C29A973 /* HGCategoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5485C64EF9CD9ADF4E6747F6540D8EAD /* HGPagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E89FCF8C178E20273E5F3BF5FA3F04 /* HGPagesViewController.m */; };
+		5524BFA17CDD35114B76721BE1C9AF69 /* HGCategoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BF29CF0B4107D4FD21A346436CD1A5 /* HGCategoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		567033AC24D9F455D06C6B3B3BFE8441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BA897897F6FFD812CBC56CD099EB80 /* UIKit.framework */; };
 		5BD11BC930BC3B741750FFD8ECBBF49F /* Pods-HGSegmentedPageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E607F23005AEF0BDE95251906093E /* Pods-HGSegmentedPageViewController_Tests-dummy.m */; };
 		5EE2F241559535F8751B83BEE616C548 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0816365E98E9F622B5A363532C3D7 /* Masonry.framework */; };
 		7412072BE035A52BEF1EC4B89C227B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118B4AFA67C95A9521C6B6E3C3E47DE /* Foundation.framework */; };
-		84559534A5C185DA07DD65EF6D0483F7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650F550BF26733B1FEF37E665B5EA3E /* NSArray+MASAdditions.m */; };
-		8B4DE332A35D11E32EFAE08BA9343F15 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2B6B0E4DA80DB68A8DB29009E3BAE /* MASViewAttribute.m */; };
-		8CC97F635EFF02CBD59D67FE36FD0A84 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEF2EE52A8018E1E98FE150A921DDD5 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EFCA8B30312CDF63B0519E819122A0F /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 674AC611BF40C73A3914A2469AB5D956 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C0384B0D63A92F57A0D3EA114FB5C02 /* HGSegmentedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D67FF780601D0F0AFA422EE2DC7F6D /* HGSegmentedPageViewController.m */; };
-		A269DB9DEF4D80DED764A3CA8C6740A5 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C145436EE8E2476FEB2E1023ADCCE84 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A28A5945AC453B208F8F38995E85664F /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 204C761CECEBDB3C7AECEAA75DD72DD0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A37E60F40205B595B851DBFD0A87CE48 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF2004A29C3FEBF0D01283805A68DB /* MASConstraintMaker.m */; };
-		AABAB089EFD6A5F729ADE31DF26392D9 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0FA4CFC11D9B326196A59F39D16A56 /* Masonry-dummy.m */; };
-		AACFE01045D9E87C7A1ED24F9EF04E95 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC4214BBBCAD238D81BF8EE9C3EF2 /* ViewController+MASAdditions.m */; };
-		AE6DE2096CEB71D1FFDEACA66B326A1D /* HGCategoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79384FC9078BA5E00982337898BCA753 /* HGCategoryView-dummy.m */; };
-		B15060866DAA818F64AF8FADA299DD34 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A52AE32DA8D67B13D6E0BFAB377C512 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84559534A5C185DA07DD65EF6D0483F7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4447DA6184093E0446C94B7FA102D01 /* NSArray+MASAdditions.m */; };
+		8B4DE332A35D11E32EFAE08BA9343F15 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1359CC9EE240A4C4A13E90091CEEFD30 /* MASViewAttribute.m */; };
+		8CC97F635EFF02CBD59D67FE36FD0A84 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D80488B922E977635D2352511CE079 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFCA8B30312CDF63B0519E819122A0F /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A65C02ECA9DBFD9C5EA40C9652D8D856 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0384B0D63A92F57A0D3EA114FB5C02 /* HGSegmentedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC51C3FC424020DEB92CCDB551BDC0 /* HGSegmentedPageViewController.m */; };
+		A269DB9DEF4D80DED764A3CA8C6740A5 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B12420B1C8B9E22D8C2E6FDF48C9AB /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A28A5945AC453B208F8F38995E85664F /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 76421608C90BF01BC746C5708F82506E /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37E60F40205B595B851DBFD0A87CE48 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6788425E0656E34FF1C2F8BC153C20B8 /* MASConstraintMaker.m */; };
+		AABAB089EFD6A5F729ADE31DF26392D9 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB49F1B193465F50DD6AF1A8B189B336 /* Masonry-dummy.m */; };
+		AACFE01045D9E87C7A1ED24F9EF04E95 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDFA091359F1F5294204E73B1178D3C /* ViewController+MASAdditions.m */; };
+		AE6DE2096CEB71D1FFDEACA66B326A1D /* HGCategoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 631FD6706D0903CD7CD0959F8FD7442F /* HGCategoryView-dummy.m */; };
+		B15060866DAA818F64AF8FADA299DD34 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CC593E21C663B19001EDDD62C9433C /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3639AB8C28A80CC9F9D1DCA61DF413D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BA897897F6FFD812CBC56CD099EB80 /* UIKit.framework */; };
-		B6E2C3ADF5E522173943A3EFA6285814 /* HGSegmentedPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE6F7E2ADB4F3E64EEC81EB356B166B /* HGSegmentedPageViewController-dummy.m */; };
+		B6E2C3ADF5E522173943A3EFA6285814 /* HGSegmentedPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5210265DB9451FF64D92855041626FF /* HGSegmentedPageViewController-dummy.m */; };
 		B89A29B181EC861EC2F411529D1847C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118B4AFA67C95A9521C6B6E3C3E47DE /* Foundation.framework */; };
-		B9E943A25427642AF9C204BDC06484EB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5CB3E240849AB06974A4B4D22C7A40 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1AE5111090C58B61233967278984E36 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D6E3248523573D590F141A6712DC91 /* MASViewConstraint.m */; };
+		B9E943A25427642AF9C204BDC06484EB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B07EC2B047B1A3FBCD5B0E17CF7C33B /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AE5111090C58B61233967278984E36 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA69909B6BDBEE7FAEDFD3F9C88EB60 /* MASViewConstraint.m */; };
 		C41E9963ED032A3AA7D5D18A632B3D0A /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0816365E98E9F622B5A363532C3D7 /* Masonry.framework */; };
-		C7560E242E48B39D22331F6756C4522E /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A43B1765CA69C1CF24303E81435A49E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC2136B586BEFB71E6DB4CDBA91623D9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A29774BDF6F9EA2B9A2DB2CB70EA5678 /* View+MASAdditions.m */; };
-		D0661463C3C6D803FB3E698FD0B97A73 /* HGCategoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F645F563BD03A4D86AD736CE0C8C2B /* HGCategoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7560E242E48B39D22331F6756C4522E /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB6A36CF8393693293474101459361A /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2136B586BEFB71E6DB4CDBA91623D9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4D3F5542C5AFDF848D8B936956DDA3 /* View+MASAdditions.m */; };
+		D0661463C3C6D803FB3E698FD0B97A73 /* HGCategoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070505A4EBBDC008AF460EBE2E26C774 /* HGCategoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D723F7EC38DC4526F32D7139B11FE820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118B4AFA67C95A9521C6B6E3C3E47DE /* Foundation.framework */; };
 		DF1B954773E7B8972FF2197B6ADE8721 /* Pods-HGSegmentedPageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A544F7F73518A2484961ED26B2CD422 /* Pods-HGSegmentedPageViewController_Example-dummy.m */; };
 		E1B329FCD0671F658CE10510E1EC0538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9118B4AFA67C95A9521C6B6E3C3E47DE /* Foundation.framework */; };
-		E517EC9E0699CB2681FEAD57D9FC8D47 /* HGSegmentedPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BD0459DFB9EBB3A2A1D25B75DB42C9 /* HGSegmentedPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7BA624C3FA0F2CFF9CBF56551728C5A /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8CF336DCACE9B1A58A4A0F91D6AAF1 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E517EC9E0699CB2681FEAD57D9FC8D47 /* HGSegmentedPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6D3E778530A2BFF4F0641AC391AA13 /* HGSegmentedPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7BA624C3FA0F2CFF9CBF56551728C5A /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E55B54778C55F2A0417BB65631D03004 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE12C082EEE66948E499EBC9B177A455 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BA897897F6FFD812CBC56CD099EB80 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,85 +114,88 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D67FF780601D0F0AFA422EE2DC7F6D /* HGSegmentedPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGSegmentedPageViewController.m; path = HGSegmentedPageViewController/HGSegmentedPageViewController.m; sourceTree = "<group>"; };
+		03E31F532A73D010811BD0872EFE5018 /* HGPagesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGPagesViewController.h; path = HGSegmentedPageViewController/HGPagesViewController.h; sourceTree = "<group>"; };
 		05056DB3D7F3DD00AB3E22E3410F308B /* Pods-HGSegmentedPageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGSegmentedPageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		057317154F9650635D3E1ABA80389A96 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		05D50200D5F84B678631F8877F95856E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		05B00E6C63A86D483CBDC7413C40FEA4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		06CCD84F7266D91319F16ED547E827FC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		06E37A4E05528F1176EFD6B4077B0DB9 /* HGCategoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGCategoryView.m; path = HGCategoryView/HGCategoryView.m; sourceTree = "<group>"; };
+		070505A4EBBDC008AF460EBE2E26C774 /* HGCategoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCategoryView-umbrella.h"; sourceTree = "<group>"; };
 		07C0816365E98E9F622B5A363532C3D7 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		088E607F23005AEF0BDE95251906093E /* Pods-HGSegmentedPageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGSegmentedPageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		0BD52731A37BE880258C25BEF4DF42B4 /* HGCategoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGCategoryView.m; path = HGCategoryView/HGCategoryView.m; sourceTree = "<group>"; };
-		0BE6F7E2ADB4F3E64EEC81EB356B166B /* HGSegmentedPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGSegmentedPageViewController-dummy.m"; sourceTree = "<group>"; };
-		0E5CB3E240849AB06974A4B4D22C7A40 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		0F9BB39BD7FD5A8B4B926D5D421488AF /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		126BEB57FF1109B71A4F83203755185D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		0B07EC2B047B1A3FBCD5B0E17CF7C33B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		1359CC9EE240A4C4A13E90091CEEFD30 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		17A9FA6534C1E60674647BFE7C4D8FAC /* Pods_HGSegmentedPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HGSegmentedPageViewController_Tests.framework; path = "Pods-HGSegmentedPageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		196FE853E27DBEC11B554F25CA1351D9 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		1A43B1765CA69C1CF24303E81435A49E /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1F6D3E778530A2BFF4F0641AC391AA13 /* HGSegmentedPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGSegmentedPageViewController-umbrella.h"; sourceTree = "<group>"; };
 		1FA293458BDFA5C090356719D710AEDD /* HGSegmentedPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGSegmentedPageViewController.framework; path = HGSegmentedPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		204C761CECEBDB3C7AECEAA75DD72DD0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		20EA49BEF0BE6B8360BAC5F0BB934333 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		21BD0459DFB9EBB3A2A1D25B75DB42C9 /* HGSegmentedPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGSegmentedPageViewController-umbrella.h"; sourceTree = "<group>"; };
-		2650F550BF26733B1FEF37E665B5EA3E /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		27893E51E9C80A1FD866C1978213E85C /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		2DC7B38CB4CB6DEC1E8AA1C46008B072 /* HGCategoryView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCategoryView.xcconfig; sourceTree = "<group>"; };
+		2E4D3F5542C5AFDF848D8B936956DDA3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		2FCFCB46CBFF29DD11C3087C84B751CA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		3075A502E5A4A1B0B05FB71A42D8D67B /* Pods-HGSegmentedPageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGSegmentedPageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		336E4B0BCC49B712C34DD50F98C0FC8B /* Pods-HGSegmentedPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGSegmentedPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		37BA897897F6FFD812CBC56CD099EB80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		38B41F590D51A6807B151D4A3038B76F /* Pods-HGSegmentedPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGSegmentedPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		39349A1134B92F52F9891A783089B1FC /* HGPagesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGPagesViewController.m; path = HGSegmentedPageViewController/HGPagesViewController.m; sourceTree = "<group>"; };
+		3990A9BC3AC925D8A170621C24AD43C1 /* HGSegmentedPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGSegmentedPageViewController-Info.plist"; sourceTree = "<group>"; };
+		39928AB589B509AD6E21FC38CE094985 /* HGSegmentedPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGSegmentedPageViewController.modulemap; sourceTree = "<group>"; };
 		3DB07217B217F7CCAD759E74AD718833 /* Pods-HGSegmentedPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGSegmentedPageViewController_Example.modulemap"; sourceTree = "<group>"; };
-		40C2B6B0E4DA80DB68A8DB29009E3BAE /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		4AE4ED7D35F10D268638E07DF9C15206 /* HGCategoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCategoryView-prefix.pch"; sourceTree = "<group>"; };
-		4B37AC4F7DC219858B583B27CC1BCC74 /* HGSegmentedPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGSegmentedPageViewController-Info.plist"; sourceTree = "<group>"; };
-		4C8CF336DCACE9B1A58A4A0F91D6AAF1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3EC54CD648D97B1F183E9FBB1B99BCC5 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		4D690BDF483494B093230E1A90D36AEA /* Pods-HGSegmentedPageViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGSegmentedPageViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		4DB7ADE074AC641DA22E39C8A2B28C9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4E2887B26D70776217D0AF58AFCAE963 /* Pods_HGSegmentedPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HGSegmentedPageViewController_Example.framework; path = "Pods-HGSegmentedPageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		610A1C314CE48E28599E1616CDD226B6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		582132DB50F8F90AA283546039786EB0 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		5ACABC97180771764CB12E66E8A73456 /* HGCategoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCategoryView.modulemap; sourceTree = "<group>"; };
+		60D80488B922E977635D2352511CE079 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		611E77410C415BEB9B016E49BCD9D5FE /* Pods-HGSegmentedPageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HGSegmentedPageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		64F645F563BD03A4D86AD736CE0C8C2B /* HGCategoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCategoryView-umbrella.h"; sourceTree = "<group>"; };
+		631FD6706D0903CD7CD0959F8FD7442F /* HGCategoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCategoryView-dummy.m"; sourceTree = "<group>"; };
 		65A174676185558122913931E95C8B6B /* Pods-HGSegmentedPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGSegmentedPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		674AC611BF40C73A3914A2469AB5D956 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		6D733498624FD9121116902C8C6554F9 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		77D3EC1B54066B5CCBEF65C9FEB06275 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		79384FC9078BA5E00982337898BCA753 /* HGCategoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCategoryView-dummy.m"; sourceTree = "<group>"; };
-		7B35AB8C3696738CF5A307FACC7382A1 /* HGCategoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCategoryView.modulemap; sourceTree = "<group>"; };
-		81DD2B62E9C15B76762DDF12D8867817 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6788425E0656E34FF1C2F8BC153C20B8 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		69B6EC4BE10A32741B6FD20236FDC457 /* HGSegmentedPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HGSegmentedPageViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69E89FCF8C178E20273E5F3BF5FA3F04 /* HGPagesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGPagesViewController.m; path = HGSegmentedPageViewController/HGPagesViewController.m; sourceTree = "<group>"; };
+		70BC51C3FC424020DEB92CCDB551BDC0 /* HGSegmentedPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGSegmentedPageViewController.m; path = HGSegmentedPageViewController/HGSegmentedPageViewController.m; sourceTree = "<group>"; };
+		75B1A5FA206269F7D037159B2A386FDC /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		76421608C90BF01BC746C5708F82506E /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		76FCE63D04CF05589DC138E56409C90D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7B86CC3AB6E4AF895E97B478D4127A8C /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		8A544F7F73518A2484961ED26B2CD422 /* Pods-HGSegmentedPageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HGSegmentedPageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		8C2EE474CAAB29651B82648442E987E8 /* HGSegmentedPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGSegmentedPageViewController.release.xcconfig; sourceTree = "<group>"; };
 		9118B4AFA67C95A9521C6B6E3C3E47DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93867F2140F202FBCD29BA68F84ACBA6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		9A52AE32DA8D67B13D6E0BFAB377C512 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		9C145436EE8E2476FEB2E1023ADCCE84 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		91AB822239FBB76D57778657C9DADDEB /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		91F5BC361AB7A6C81D5C944F7EF21974 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		974747026C52276E4C32EE9A8064A444 /* HGSegmentedPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGSegmentedPageViewController.h; path = HGSegmentedPageViewController/HGSegmentedPageViewController.h; sourceTree = "<group>"; };
+		98B12420B1C8B9E22D8C2E6FDF48C9AB /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		9AFB37B2D11228157684972C9ADEE57D /* HGCategoryView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCategoryView.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED1BC98D6F35E02B08CE9BEDA2BA04B /* Pods-HGSegmentedPageViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGSegmentedPageViewController_Example-Info.plist"; sourceTree = "<group>"; };
-		A29774BDF6F9EA2B9A2DB2CB70EA5678 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		A5DBC4214BBBCAD238D81BF8EE9C3EF2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		A7BF2004A29C3FEBF0D01283805A68DB /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		AC24B44B7E24A84FD32E47930538050C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		AF767D50EB3EEDF19743AF3D98BE2A29 /* HGSegmentedPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGSegmentedPageViewController-prefix.pch"; sourceTree = "<group>"; };
-		B1B4674F0E9CE16A1CD7A1EEE107F889 /* HGSegmentedPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGSegmentedPageViewController.h; path = HGSegmentedPageViewController/HGSegmentedPageViewController.h; sourceTree = "<group>"; };
-		B68CE7274ABC08CEB947D3052040174C /* HGPagesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGPagesViewController.h; path = HGSegmentedPageViewController/HGPagesViewController.h; sourceTree = "<group>"; };
-		BBAACEE324EEBB314D2219FA4C29A973 /* HGCategoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGCategoryView.h; path = HGCategoryView/HGCategoryView.h; sourceTree = "<group>"; };
+		A449C5892572606BDCE566FF4C49DE8F /* HGSegmentedPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGSegmentedPageViewController.debug.xcconfig; sourceTree = "<group>"; };
+		A5210265DB9451FF64D92855041626FF /* HGSegmentedPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGSegmentedPageViewController-dummy.m"; sourceTree = "<group>"; };
+		A65C02ECA9DBFD9C5EA40C9652D8D856 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		A78F95D6B5D8217B6ED9966BE02090F1 /* HGCategoryView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCategoryView.release.xcconfig; sourceTree = "<group>"; };
+		ADA69909B6BDBEE7FAEDFD3F9C88EB60 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		BC8610FA1CBE39E22EBF699BE37E0666 /* HGCategoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HGCategoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C03105AC64CB2D395E6FA915CEE473C0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		C9FF514DAA1BDAA6C979D9F574BDFEC5 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		CA0FA4CFC11D9B326196A59F39D16A56 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		CCEF2EE52A8018E1E98FE150A921DDD5 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		D2D6E3248523573D590F141A6712DC91 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		D86CC84D53599B599E96BE65B99A3BE0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		E7E683199C6EFEEDCC3478B1D61286EE /* HGCategoryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCategoryView-Info.plist"; sourceTree = "<group>"; };
+		BCDFA091359F1F5294204E73B1178D3C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		C4BF29CF0B4107D4FD21A346436CD1A5 /* HGCategoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGCategoryView.h; path = HGCategoryView/HGCategoryView.h; sourceTree = "<group>"; };
+		C8DE6D3384387A37286A384E7C160342 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		C8F9379F676F6BE7B9C0BF9B3BC048BB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CA8F3D4BB172A1C8B8778486732F4098 /* HGSegmentedPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGSegmentedPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		CB1AF77F9D9A13F064605B63CA8FF1AF /* HGCategoryView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCategoryView-prefix.pch"; sourceTree = "<group>"; };
+		CB2E57E7BA811A3FEB3561D2D9D7BFDB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CECB82BEE01F597331E5C6288D056996 /* HGCategoryView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCategoryView-Info.plist"; sourceTree = "<group>"; };
+		D4447DA6184093E0446C94B7FA102D01 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D630145CD4C09438F7067E3E8641E4A1 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		D9A365386DD2EF3E82A4F4341B4210D6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D9AE61F1128DA1D1587C02CB8209423E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E55B54778C55F2A0417BB65631D03004 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		EA446B25CBCA771EDC9D65A7080C3D21 /* HGCategoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGCategoryView.framework; path = HGCategoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB60AFD15F4F69CE78DD5EE02B78C082 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EB49F1B193465F50DD6AF1A8B189B336 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		EBF9E1D99AAFBA89AF25F18136FBA1E3 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		EC3C50076AA314163D1262D5398DDEBC /* Pods-HGSegmentedPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HGSegmentedPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE29A6C49A291F0A4E5805F4EEFF0ED8 /* Pods-HGSegmentedPageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HGSegmentedPageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EEB6C50CE5615607E8B54C24AA325553 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F6956DF72C8AE554A83A704386B34CDB /* HGSegmentedPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGSegmentedPageViewController.modulemap; sourceTree = "<group>"; };
+		F39676EC276D94606C69B33FB28A1C22 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		F4CC593E21C663B19001EDDD62C9433C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		F82B08C3682B03A61B48EC5F1DD13DAB /* Pods-HGSegmentedPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGSegmentedPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FAB0D377A007CA2AC8DBFDE838EFE348 /* Pods-HGSegmentedPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HGSegmentedPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		FBB6A36CF8393693293474101459361A /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		FBBD2F37B979FCD4F63EBBC54B0FC91E /* Pods-HGSegmentedPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HGSegmentedPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FE50F5BB7A5CA38E272DB33466519EF7 /* Pods-HGSegmentedPageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HGSegmentedPageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF62DBB785900AC06CEA34E180A048B7 /* HGSegmentedPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGSegmentedPageViewController.xcconfig; sourceTree = "<group>"; };
-		FFE569AFBE7896EF8F11DBAE016BAC78 /* HGSegmentedPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HGSegmentedPageViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,39 +264,55 @@
 			path = "Target Support Files/Pods-HGSegmentedPageViewController_Tests";
 			sourceTree = "<group>";
 		};
-		146B1A99FC354473ADA007F901977195 /* Pod */ = {
+		222F0E452E942C7CF15A72377942B2EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFE569AFBE7896EF8F11DBAE016BAC78 /* HGSegmentedPageViewController.podspec */,
-				77D3EC1B54066B5CCBEF65C9FEB06275 /* LICENSE */,
-				EEB6C50CE5615607E8B54C24AA325553 /* README.md */,
+				39928AB589B509AD6E21FC38CE094985 /* HGSegmentedPageViewController.modulemap */,
+				A5210265DB9451FF64D92855041626FF /* HGSegmentedPageViewController-dummy.m */,
+				3990A9BC3AC925D8A170621C24AD43C1 /* HGSegmentedPageViewController-Info.plist */,
+				CA8F3D4BB172A1C8B8778486732F4098 /* HGSegmentedPageViewController-prefix.pch */,
+				1F6D3E778530A2BFF4F0641AC391AA13 /* HGSegmentedPageViewController-umbrella.h */,
+				A449C5892572606BDCE566FF4C49DE8F /* HGSegmentedPageViewController.debug.xcconfig */,
+				8C2EE474CAAB29651B82648442E987E8 /* HGSegmentedPageViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HGSegmentedPageViewController";
+			sourceTree = "<group>";
+		};
+		2B2E0A5D25FF0B98ADDB3E3DEEEAFC44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69B6EC4BE10A32741B6FD20236FDC457 /* HGSegmentedPageViewController.podspec */,
+				4DB7ADE074AC641DA22E39C8A2B28C9E /* LICENSE */,
+				91F5BC361AB7A6C81D5C944F7EF21974 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		18862697F0C47599104BECAB5A8D3171 /* HGCategoryView */ = {
+		7269319BF528146BF26C2F968890E994 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBAACEE324EEBB314D2219FA4C29A973 /* HGCategoryView.h */,
-				0BD52731A37BE880258C25BEF4DF42B4 /* HGCategoryView.m */,
-				C6A2836B6A9A783E4116EC47100414EE /* Support Files */,
+				5ACABC97180771764CB12E66E8A73456 /* HGCategoryView.modulemap */,
+				631FD6706D0903CD7CD0959F8FD7442F /* HGCategoryView-dummy.m */,
+				CECB82BEE01F597331E5C6288D056996 /* HGCategoryView-Info.plist */,
+				CB1AF77F9D9A13F064605B63CA8FF1AF /* HGCategoryView-prefix.pch */,
+				070505A4EBBDC008AF460EBE2E26C774 /* HGCategoryView-umbrella.h */,
+				9AFB37B2D11228157684972C9ADEE57D /* HGCategoryView.debug.xcconfig */,
+				A78F95D6B5D8217B6ED9966BE02090F1 /* HGCategoryView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HGCategoryView";
+			sourceTree = "<group>";
+		};
+		7D64AA30E547B90733845C663CE3F501 /* HGCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				C4BF29CF0B4107D4FD21A346436CD1A5 /* HGCategoryView.h */,
+				06E37A4E05528F1176EFD6B4077B0DB9 /* HGCategoryView.m */,
+				7269319BF528146BF26C2F968890E994 /* Support Files */,
 			);
 			name = HGCategoryView;
 			path = HGCategoryView;
-			sourceTree = "<group>";
-		};
-		25F4AC05D51B85BBE09B22B13EC04DEC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F6956DF72C8AE554A83A704386B34CDB /* HGSegmentedPageViewController.modulemap */,
-				FF62DBB785900AC06CEA34E180A048B7 /* HGSegmentedPageViewController.xcconfig */,
-				0BE6F7E2ADB4F3E64EEC81EB356B166B /* HGSegmentedPageViewController-dummy.m */,
-				4B37AC4F7DC219858B583B27CC1BCC74 /* HGSegmentedPageViewController-Info.plist */,
-				AF767D50EB3EEDF19743AF3D98BE2A29 /* HGSegmentedPageViewController-prefix.pch */,
-				21BD0459DFB9EBB3A2A1D25B75DB42C9 /* HGSegmentedPageViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HGSegmentedPageViewController";
 			sourceTree = "<group>";
 		};
 		7DA0CCA068383078C8787942C1D5E03F /* Pods-HGSegmentedPageViewController_Example */ = {
@@ -313,6 +332,40 @@
 			path = "Target Support Files/Pods-HGSegmentedPageViewController_Example";
 			sourceTree = "<group>";
 		};
+		831A3F90F3A7DE4D3D4642ECC4975CB3 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E55B54778C55F2A0417BB65631D03004 /* MASCompositeConstraint.h */,
+				D9A365386DD2EF3E82A4F4341B4210D6 /* MASCompositeConstraint.m */,
+				98B12420B1C8B9E22D8C2E6FDF48C9AB /* MASConstraint.h */,
+				582132DB50F8F90AA283546039786EB0 /* MASConstraint.m */,
+				2FCFCB46CBFF29DD11C3087C84B751CA /* MASConstraint+Private.h */,
+				7B86CC3AB6E4AF895E97B478D4127A8C /* MASConstraintMaker.h */,
+				6788425E0656E34FF1C2F8BC153C20B8 /* MASConstraintMaker.m */,
+				06CCD84F7266D91319F16ED547E827FC /* MASLayoutConstraint.h */,
+				C8F9379F676F6BE7B9C0BF9B3BC048BB /* MASLayoutConstraint.m */,
+				D630145CD4C09438F7067E3E8641E4A1 /* Masonry.h */,
+				60D80488B922E977635D2352511CE079 /* MASUtilities.h */,
+				76421608C90BF01BC746C5708F82506E /* MASViewAttribute.h */,
+				1359CC9EE240A4C4A13E90091CEEFD30 /* MASViewAttribute.m */,
+				FBB6A36CF8393693293474101459361A /* MASViewConstraint.h */,
+				ADA69909B6BDBEE7FAEDFD3F9C88EB60 /* MASViewConstraint.m */,
+				F4CC593E21C663B19001EDDD62C9433C /* NSArray+MASAdditions.h */,
+				D4447DA6184093E0446C94B7FA102D01 /* NSArray+MASAdditions.m */,
+				D9AE61F1128DA1D1587C02CB8209423E /* NSArray+MASShorthandAdditions.h */,
+				0B07EC2B047B1A3FBCD5B0E17CF7C33B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				76FCE63D04CF05589DC138E56409C90D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				A65C02ECA9DBFD9C5EA40C9652D8D856 /* View+MASAdditions.h */,
+				2E4D3F5542C5AFDF848D8B936956DDA3 /* View+MASAdditions.m */,
+				05B00E6C63A86D483CBDC7413C40FEA4 /* View+MASShorthandAdditions.h */,
+				CB2E57E7BA811A3FEB3561D2D9D7BFDB /* ViewController+MASAdditions.h */,
+				BCDFA091359F1F5294204E73B1178D3C /* ViewController+MASAdditions.m */,
+				D1110ECDA85683C48496DE8EB31506F5 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		972188B730169558E806B79B07C102A5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +373,20 @@
 				37BA897897F6FFD812CBC56CD099EB80 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A3A4A8B3BC84E52036DB3D742C642C07 /* HGSegmentedPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03E31F532A73D010811BD0872EFE5018 /* HGPagesViewController.h */,
+				69E89FCF8C178E20273E5F3BF5FA3F04 /* HGPagesViewController.m */,
+				974747026C52276E4C32EE9A8064A444 /* HGSegmentedPageViewController.h */,
+				70BC51C3FC424020DEB92CCDB551BDC0 /* HGSegmentedPageViewController.m */,
+				2B2E0A5D25FF0B98ADDB3E3DEEEAFC44 /* Pod */,
+				222F0E452E942C7CF15A72377942B2EA /* Support Files */,
+			);
+			name = HGSegmentedPageViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AD254D6D21FB36E30FC74841ED014F59 /* Products */ = {
@@ -334,75 +401,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B625C5891404E508281B20146D948B4C /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				4C8CF336DCACE9B1A58A4A0F91D6AAF1 /* MASCompositeConstraint.h */,
-				93867F2140F202FBCD29BA68F84ACBA6 /* MASCompositeConstraint.m */,
-				9C145436EE8E2476FEB2E1023ADCCE84 /* MASConstraint.h */,
-				20EA49BEF0BE6B8360BAC5F0BB934333 /* MASConstraint.m */,
-				EB60AFD15F4F69CE78DD5EE02B78C082 /* MASConstraint+Private.h */,
-				0F9BB39BD7FD5A8B4B926D5D421488AF /* MASConstraintMaker.h */,
-				A7BF2004A29C3FEBF0D01283805A68DB /* MASConstraintMaker.m */,
-				AC24B44B7E24A84FD32E47930538050C /* MASLayoutConstraint.h */,
-				05D50200D5F84B678631F8877F95856E /* MASLayoutConstraint.m */,
-				126BEB57FF1109B71A4F83203755185D /* Masonry.h */,
-				CCEF2EE52A8018E1E98FE150A921DDD5 /* MASUtilities.h */,
-				204C761CECEBDB3C7AECEAA75DD72DD0 /* MASViewAttribute.h */,
-				40C2B6B0E4DA80DB68A8DB29009E3BAE /* MASViewAttribute.m */,
-				1A43B1765CA69C1CF24303E81435A49E /* MASViewConstraint.h */,
-				D2D6E3248523573D590F141A6712DC91 /* MASViewConstraint.m */,
-				9A52AE32DA8D67B13D6E0BFAB377C512 /* NSArray+MASAdditions.h */,
-				2650F550BF26733B1FEF37E665B5EA3E /* NSArray+MASAdditions.m */,
-				81DD2B62E9C15B76762DDF12D8867817 /* NSArray+MASShorthandAdditions.h */,
-				0E5CB3E240849AB06974A4B4D22C7A40 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				D86CC84D53599B599E96BE65B99A3BE0 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				674AC611BF40C73A3914A2469AB5D956 /* View+MASAdditions.h */,
-				A29774BDF6F9EA2B9A2DB2CB70EA5678 /* View+MASAdditions.m */,
-				057317154F9650635D3E1ABA80389A96 /* View+MASShorthandAdditions.h */,
-				610A1C314CE48E28599E1616CDD226B6 /* ViewController+MASAdditions.h */,
-				A5DBC4214BBBCAD238D81BF8EE9C3EF2 /* ViewController+MASAdditions.m */,
-				CA05D8F3A7A88D552C8A455AFABA8525 /* Support Files */,
-			);
-			name = Masonry;
-			path = Masonry;
-			sourceTree = "<group>";
-		};
 		C3380BE4C7EC345E241F1200EF35592D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18862697F0C47599104BECAB5A8D3171 /* HGCategoryView */,
-				B625C5891404E508281B20146D948B4C /* Masonry */,
+				7D64AA30E547B90733845C663CE3F501 /* HGCategoryView */,
+				831A3F90F3A7DE4D3D4642ECC4975CB3 /* Masonry */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		C6A2836B6A9A783E4116EC47100414EE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B35AB8C3696738CF5A307FACC7382A1 /* HGCategoryView.modulemap */,
-				2DC7B38CB4CB6DEC1E8AA1C46008B072 /* HGCategoryView.xcconfig */,
-				79384FC9078BA5E00982337898BCA753 /* HGCategoryView-dummy.m */,
-				E7E683199C6EFEEDCC3478B1D61286EE /* HGCategoryView-Info.plist */,
-				4AE4ED7D35F10D268638E07DF9C15206 /* HGCategoryView-prefix.pch */,
-				64F645F563BD03A4D86AD736CE0C8C2B /* HGCategoryView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HGCategoryView";
-			sourceTree = "<group>";
-		};
-		CA05D8F3A7A88D552C8A455AFABA8525 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9FF514DAA1BDAA6C979D9F574BDFEC5 /* Masonry.modulemap */,
-				196FE853E27DBEC11B554F25CA1351D9 /* Masonry.xcconfig */,
-				CA0FA4CFC11D9B326196A59F39D16A56 /* Masonry-dummy.m */,
-				6D733498624FD9121116902C8C6554F9 /* Masonry-Info.plist */,
-				C03105AC64CB2D395E6FA915CEE473C0 /* Masonry-prefix.pch */,
-				27893E51E9C80A1FD866C1978213E85C /* Masonry-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -417,18 +422,19 @@
 			);
 			sourceTree = "<group>";
 		};
-		DA25A91EA2E9247C6490FA963C5AAB73 /* HGSegmentedPageViewController */ = {
+		D1110ECDA85683C48496DE8EB31506F5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B68CE7274ABC08CEB947D3052040174C /* HGPagesViewController.h */,
-				39349A1134B92F52F9891A783089B1FC /* HGPagesViewController.m */,
-				B1B4674F0E9CE16A1CD7A1EEE107F889 /* HGSegmentedPageViewController.h */,
-				00D67FF780601D0F0AFA422EE2DC7F6D /* HGSegmentedPageViewController.m */,
-				146B1A99FC354473ADA007F901977195 /* Pod */,
-				25F4AC05D51B85BBE09B22B13EC04DEC /* Support Files */,
+				91AB822239FBB76D57778657C9DADDEB /* Masonry.modulemap */,
+				EB49F1B193465F50DD6AF1A8B189B336 /* Masonry-dummy.m */,
+				C8DE6D3384387A37286A384E7C160342 /* Masonry-Info.plist */,
+				EBF9E1D99AAFBA89AF25F18136FBA1E3 /* Masonry-prefix.pch */,
+				F39676EC276D94606C69B33FB28A1C22 /* Masonry-umbrella.h */,
+				3EC54CD648D97B1F183E9FBB1B99BCC5 /* Masonry.debug.xcconfig */,
+				75B1A5FA206269F7D037159B2A386FDC /* Masonry.release.xcconfig */,
 			);
-			name = HGSegmentedPageViewController;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		EE3DE973840C750EC3507560DE8922A5 /* Targets Support Files */ = {
@@ -453,7 +459,7 @@
 		F8815B8478844CF752C0EA6EA89A9AD8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA25A91EA2E9247C6490FA963C5AAB73 /* HGSegmentedPageViewController */,
+				A3A4A8B3BC84E52036DB3D742C642C07 /* HGSegmentedPageViewController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -790,9 +796,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B3C2C9B92126884891CD5D42264ACEB /* Release */ = {
+		250F89DFAFE2040834AB3A1190D2E3EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 196FE853E27DBEC11B554F25CA1351D9 /* Masonry.xcconfig */;
+			baseConfigurationReference = 8C2EE474CAAB29651B82648442E987E8 /* HGSegmentedPageViewController.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -803,14 +809,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				MODULEMAP_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = HGSegmentedPageViewController;
+				PRODUCT_NAME = HGSegmentedPageViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -820,6 +826,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		342E7F3A8B87F5C00E4AA3A43C094BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFB37B2D11228157684972C9ADEE57D /* HGCategoryView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCategoryView/HGCategoryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCategoryView/HGCategoryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGCategoryView/HGCategoryView.modulemap";
+				PRODUCT_MODULE_NAME = HGCategoryView;
+				PRODUCT_NAME = HGCategoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		3B7B274C8F3E220AFF6F5B4B9D730852 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -915,9 +951,9 @@
 			};
 			name = Release;
 		};
-		6CCDD28DAEB529059C507C2F72FF4812 /* Debug */ = {
+		4DF1980F9EDAE59A294108D8218256A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DC7B38CB4CB6DEC1E8AA1C46008B072 /* HGCategoryView.xcconfig */;
+			baseConfigurationReference = A449C5892572606BDCE566FF4C49DE8F /* HGSegmentedPageViewController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -928,14 +964,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGCategoryView/HGCategoryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGCategoryView/HGCategoryView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGCategoryView/HGCategoryView.modulemap";
-				PRODUCT_MODULE_NAME = HGCategoryView;
-				PRODUCT_NAME = HGCategoryView;
+				MODULEMAP_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = HGSegmentedPageViewController;
+				PRODUCT_NAME = HGSegmentedPageViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1042,9 +1078,40 @@
 			};
 			name = Debug;
 		};
-		84D3FA624F097873BCC0B48051297CF4 /* Debug */ = {
+		A11C51067EADC5576C860A79BE4557EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 196FE853E27DBEC11B554F25CA1351D9 /* Masonry.xcconfig */;
+			baseConfigurationReference = 75B1A5FA206269F7D037159B2A386FDC /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0AE6ADA7B0B36EA4A6B963F8EC02F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC54CD648D97B1F183E9FBB1B99BCC5 /* Masonry.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1071,67 +1138,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9A1F054F7CF80651653C8DBA353F7038 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF62DBB785900AC06CEA34E180A048B7 /* HGSegmentedPageViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController.modulemap";
-				PRODUCT_MODULE_NAME = HGSegmentedPageViewController;
-				PRODUCT_NAME = HGSegmentedPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD4AC9D4296CD1A0B10F6D3C25CB16B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DC7B38CB4CB6DEC1E8AA1C46008B072 /* HGCategoryView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGCategoryView/HGCategoryView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGCategoryView/HGCategoryView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGCategoryView/HGCategoryView.modulemap";
-				PRODUCT_MODULE_NAME = HGCategoryView;
-				PRODUCT_NAME = HGCategoryView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C398235C1F33C67134AEECCDA9C64B9C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1160,37 +1166,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CE1C4BADE05360A447F5305CCD81AC5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF62DBB785900AC06CEA34E180A048B7 /* HGSegmentedPageViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HGSegmentedPageViewController/HGSegmentedPageViewController.modulemap";
-				PRODUCT_MODULE_NAME = HGSegmentedPageViewController;
-				PRODUCT_NAME = HGSegmentedPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1231,6 +1206,37 @@
 			};
 			name = Debug;
 		};
+		FCCCA04C355F5A05B381EBBF5DCC25EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78F95D6B5D8217B6ED9966BE02090F1 /* HGCategoryView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCategoryView/HGCategoryView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCategoryView/HGCategoryView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HGCategoryView/HGCategoryView.modulemap";
+				PRODUCT_MODULE_NAME = HGCategoryView;
+				PRODUCT_NAME = HGCategoryView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1264,8 +1270,8 @@
 		78ABBDC768D767227C08522689CAEB9C /* Build configuration list for PBXNativeTarget "HGCategoryView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCDD28DAEB529059C507C2F72FF4812 /* Debug */,
-				AD4AC9D4296CD1A0B10F6D3C25CB16B5 /* Release */,
+				342E7F3A8B87F5C00E4AA3A43C094BF5 /* Debug */,
+				FCCCA04C355F5A05B381EBBF5DCC25EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1273,8 +1279,8 @@
 		7D341A762E825F76DB7D0EE6AE98FBD3 /* Build configuration list for PBXNativeTarget "HGSegmentedPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A1F054F7CF80651653C8DBA353F7038 /* Debug */,
-				CE1C4BADE05360A447F5305CCD81AC5E /* Release */,
+				4DF1980F9EDAE59A294108D8218256A3 /* Debug */,
+				250F89DFAFE2040834AB3A1190D2E3EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1282,8 +1288,8 @@
 		B2139E07A4BE34ABA949E07F00163E0F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84D3FA624F097873BCC0B48051297CF4 /* Debug */,
-				0B3C2C9B92126884891CD5D42264ACEB /* Release */,
+				C0AE6ADA7B0B36EA4A6B963F8EC02F26 /* Debug */,
+				A11C51067EADC5576C860A79BE4557EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
