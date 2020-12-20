@@ -1,6 +1,6 @@
 {
   "name": "HGSegmentedPageViewController",
-  "version": "1.1.5",
+  "version": "1.2.1",
   "license": "MIT",
   "summary": "A paging solution",
   "description": "A paging solution.\nHGSegmentedPageViewController supports iOS.",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/ArchLL/HGSegmentedPageViewController.git",
-    "tag": "1.1.5"
+    "tag": "1.2.1"
   },
   "source_files": "HGSegmentedPageViewController/*.{h,m}",
   "ios": {
@@ -27,7 +27,7 @@
       "~> 1.1.0"
     ],
     "HGCategoryView": [
-      "~> 1.1.6"
+      "~> 1.1.7"
     ]
   },
   "requires_arc": true

@@ -46,7 +46,7 @@ static NSString * const HGPagesViewControllerCellIdentifier = @"HGPagesViewContr
     if (!self.hasInitialScroll) {
         [self.collectionView reloadData];
         [self.collectionView layoutIfNeeded];
-        [self setSelectedPage:self.selectedPage];
+        [self setSelectedPage:self.selectedPage animated:NO];
     }
 }
 

@@ -52,17 +52,17 @@
         [controllers addObject:controller];
     }
     _segmentedPageViewController.pageViewControllers = controllers;
-    _segmentedPageViewController.categoryView.titles = titles;
-    _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
-    _segmentedPageViewController.categoryView.itemSpacing = 25;
-    _segmentedPageViewController.categoryView.topBorder.hidden = YES;
     _segmentedPageViewController.selectedPage = 2;
+    _segmentedPageViewController.categoryView.titles = titles;
 }
 
 #pragma mark Getters
 - (HGSegmentedPageViewController *)segmentedPageViewController {
     if (!_segmentedPageViewController) {
         _segmentedPageViewController = [[HGSegmentedPageViewController alloc] init];
+        _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
+        _segmentedPageViewController.categoryView.itemSpacing = 25;
+        _segmentedPageViewController.categoryView.topBorder.hidden = YES;
     }
     return _segmentedPageViewController;
 }

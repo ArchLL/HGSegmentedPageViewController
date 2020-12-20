@@ -333,10 +333,6 @@ const CGFloat HGCategoryViewDefaultHeight = 41;
 
 #pragma mark - Setters
 - (void)setSelectedIndex:(NSUInteger)selectedIndex {
-    if (self.titles.count == 0) {
-        return;
-    }
-    
     HGCategoryViewCell *lastSelectedCell = [self getCell:self.selectedIndex];
     lastSelectedCell.selected = NO;
     
@@ -346,7 +342,9 @@ const CGFloat HGCategoryViewDefaultHeight = 41;
         _selectedIndex = selectedIndex;
     }
     
-    [self layoutAndScrollToSelectedItem];
+    if (self.titles.count > 0) {
+        [self layoutAndScrollToSelectedItem];
+    }
 }
 
 - (void)setTitles:(NSArray<NSString *> *)titles {
