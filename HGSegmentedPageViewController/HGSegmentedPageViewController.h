@@ -20,9 +20,9 @@
 @interface HGSegmentedPageViewController : UIViewController
 @property (nonatomic, strong, readonly) HGCategoryView *categoryView;
 @property (nonatomic, copy) NSArray<UIViewController *> *pageViewControllers;
-@property (nonatomic) NSInteger originalPage;
-@property (nonatomic, readonly) NSInteger selectedPage;
+@property (nonatomic) NSInteger selectedPage;
 @property (nonatomic, strong, readonly) UIViewController *selectedPageViewController;
 @property (nonatomic, weak) id<HGSegmentedPageViewControllerDelegate> delegate;
+@property (nonatomic) BOOL scrollEnabled; // 是否允许pageViewControllers被拖动. default is YES
 @end
 

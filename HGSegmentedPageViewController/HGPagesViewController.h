@@ -18,8 +18,7 @@
 @interface HGPagesViewController : UIViewController
 @property (nonatomic, strong, readonly) UICollectionView *collectionView;
 @property (nonatomic, copy) NSArray<UIViewController *> *viewControllers;
-@property (nonatomic) NSInteger originalPage;
-@property (nonatomic, readonly) NSInteger selectedPage;
+@property (nonatomic) NSInteger selectedPage;
 @property (nonatomic, strong, readonly) UIViewController *selectedPageViewController;
 @property (nonatomic, weak) id <HGPagesViewControllerDelegate> delegate;
 

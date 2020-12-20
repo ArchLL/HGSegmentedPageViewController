@@ -15,11 +15,10 @@
 @interface HGSegmentedPageViewController () <HGCategoryViewDelegate, HGPagesViewControllerDelegate>
 @property (nonatomic, strong) HGCategoryView *categoryView;
 @property (nonatomic, strong) HGPagesViewController *pagesViewController;
-@property (nonatomic) BOOL isDragging;
 @end
 
 @implementation HGSegmentedPageViewController
-@synthesize originalPage = _originalPage;
+@synthesize selectedPage = _selectedPage;
 
 #pragma mark - Life Cycle
 - (void)viewDidLoad {
@@ -42,13 +41,11 @@
 
 #pragma mark - HGCategoryViewDelegate
 - (void)categoryViewDidSelectedItemAtIndex:(NSInteger)index {
-    self.isDragging = NO;
-    [self.pagesViewController setSelectedPage:index animated:NO];
+    self.pagesViewController.selectedPage = index;
 }
 
 #pragma mark - HGPagesViewControllerDelegate
 - (void)pagesViewControllerWillBeginDragging {
-    self.isDragging = YES;
     if ([self.delegate respondsToSelector:@selector(segmentedPageViewControllerWillBeginDragging)]) {
         [self.delegate segmentedPageViewControllerWillBeginDragging];
     }
@@ -61,9 +58,6 @@
 }
 
 - (void)pagesViewControllerScrollingToTargetPage:(NSInteger)targetPage sourcePage:(NSInteger)sourcePage percent:(CGFloat)percent {
-    if (!self.isDragging) {
-        return;
-    }
     [self.categoryView scrollToTargetIndex:targetPage sourceIndex:sourcePage percent:percent];
 }
 
@@ -85,9 +79,15 @@
     self.pagesViewController.viewControllers = pageViewControllers;
 }
 
-- (void)setOriginalPage:(NSInteger)originalPage {
-    _originalPage = originalPage;
-    self.categoryView.originalIndex = originalPage;
+- (void)setSelectedPage:(NSInteger)selectedPage {
+    _selectedPage = selectedPage;
+    self.categoryView.selectedIndex = selectedPage;
+    self.pagesViewController.selectedPage = selectedPage;
+}
+
+- (void)setScrollEnabled:(BOOL)scrollEnabled {
+    _scrollEnabled = scrollEnabled;
+    self.pagesViewController.collectionView.scrollEnabled = scrollEnabled;
 }
 
 #pragma mark - Getters
@@ -105,10 +105,6 @@
         _pagesViewController.delegate = self;
     }
     return _pagesViewController;
-}
-
-- (NSInteger)originalPage {
-    return self.categoryView.originalIndex;
 }
 
 - (NSInteger)selectedPage {

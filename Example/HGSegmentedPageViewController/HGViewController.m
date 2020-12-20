@@ -22,13 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"分页解决方案";
-    
     [self addSegmentedPageViewController];
+    // 你也可以将setupPageViewControllers也放到请求成功后执行
     [self setupPageViewControllers];
-    // 模拟请求成功后展示pageViewControllers，你也可以将addSegmentedPageViewController也放到请求成功后处理
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [self setupPageViewControllers];
-//    });
 }
 
 #pragma mark - Private Methods
@@ -58,9 +54,9 @@
     _segmentedPageViewController.pageViewControllers = controllers;
     _segmentedPageViewController.categoryView.titles = titles;
     _segmentedPageViewController.categoryView.alignment = HGCategoryViewAlignmentLeft;
-    _segmentedPageViewController.categoryView.originalIndex = 2;
     _segmentedPageViewController.categoryView.itemSpacing = 25;
     _segmentedPageViewController.categoryView.topBorder.hidden = YES;
+    _segmentedPageViewController.selectedPage = 2;
 }
 
 #pragma mark Getters

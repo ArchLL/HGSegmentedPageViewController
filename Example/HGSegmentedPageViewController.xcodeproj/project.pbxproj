@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A618521016A57518815BF7 /* libPods-HGSegmentedPageViewController_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 593FF30DDC132A1C46098C76 /* libPods-HGSegmentedPageViewController_Tests.a */; };
+		0ED0541716FF8D8BC666E300 /* libPods-HGSegmentedPageViewController_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA835D4F18C0DE5193D47374 /* libPods-HGSegmentedPageViewController_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,8 +22,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		650608E479FBFF40A66A3D6D /* Pods_HGSegmentedPageViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D41744AEAF6654B3C25DB1 /* Pods_HGSegmentedPageViewController_Example.framework */; };
-		66880E7BF5D69196A47FCD06 /* Pods_HGSegmentedPageViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127AAFC1BE6A1389E99AD319 /* Pods_HGSegmentedPageViewController_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A9875D1421FD71EF0053EA88 /* HGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9875D0E21FD71EF0053EA88 /* HGFirstViewController.m */; };
@@ -40,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		127AAFC1BE6A1389E99AD319 /* Pods_HGSegmentedPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGSegmentedPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1BC67B8A68275EAFCAE85A /* HGSegmentedPageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HGSegmentedPageViewController.podspec; path = ../HGSegmentedPageViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E87F8DBBB1C07C61129AADA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		49C9B11C2BDBC494F2FD6F95 /* Pods-HGSegmentedPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGSegmentedPageViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGSegmentedPageViewController_Example/Pods-HGSegmentedPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55F149A196011BF6AEF49437 /* Pods-HGSegmentedPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGSegmentedPageViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGSegmentedPageViewController_Tests/Pods-HGSegmentedPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		593FF30DDC132A1C46098C76 /* libPods-HGSegmentedPageViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGSegmentedPageViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HGSegmentedPageViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGSegmentedPageViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72D41744AEAF6654B3C25DB1 /* Pods_HGSegmentedPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGSegmentedPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8AB4E711D845FEB96DEFA8A7 /* Pods-HGSegmentedPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGSegmentedPageViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGSegmentedPageViewController_Example/Pods-HGSegmentedPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9875D0E21FD71EF0053EA88 /* HGFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGFirstViewController.m; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		A9875D1221FD71EF0053EA88 /* HGFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGFirstViewController.h; sourceTree = "<group>"; };
 		A9875D1321FD71EF0053EA88 /* HGThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGThirdViewController.h; sourceTree = "<group>"; };
 		B430D6BB6BAC2D326A638D4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA835D4F18C0DE5193D47374 /* libPods-HGSegmentedPageViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGSegmentedPageViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5425597D8B0522E0140B61 /* Pods-HGSegmentedPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGSegmentedPageViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGSegmentedPageViewController_Tests/Pods-HGSegmentedPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				650608E479FBFF40A66A3D6D /* Pods_HGSegmentedPageViewController_Example.framework in Frameworks */,
+				0ED0541716FF8D8BC666E300 /* libPods-HGSegmentedPageViewController_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				66880E7BF5D69196A47FCD06 /* Pods_HGSegmentedPageViewController_Tests.framework in Frameworks */,
+				03A618521016A57518815BF7 /* libPods-HGSegmentedPageViewController_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				72D41744AEAF6654B3C25DB1 /* Pods_HGSegmentedPageViewController_Example.framework */,
-				127AAFC1BE6A1389E99AD319 /* Pods_HGSegmentedPageViewController_Tests.framework */,
+				DA835D4F18C0DE5193D47374 /* libPods-HGSegmentedPageViewController_Example.a */,
+				593FF30DDC132A1C46098C76 /* libPods-HGSegmentedPageViewController_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,7 +230,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				91DCEA33AB7123EC8DF5154D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,28 +356,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91DCEA33AB7123EC8DF5154D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HGSegmentedPageViewController_Example/Pods-HGSegmentedPageViewController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HGCategoryView/HGCategoryView.framework",
-				"${BUILT_PRODUCTS_DIR}/HGSegmentedPageViewController/HGSegmentedPageViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGCategoryView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGSegmentedPageViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HGSegmentedPageViewController_Example/Pods-HGSegmentedPageViewController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -474,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

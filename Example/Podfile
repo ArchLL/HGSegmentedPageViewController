@@ -1,6 +1,6 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'HGSegmentedPageViewController_Example' do
   pod 'HGSegmentedPageViewController', :path => '../'
@@ -8,6 +8,5 @@ target 'HGSegmentedPageViewController_Example' do
   target 'HGSegmentedPageViewController_Tests' do
     inherit! :search_paths
 
-    
   end
 end
